@@ -86,7 +86,11 @@ public class SwagLabLoginTest extends BaseClass
 		Assert.assertEquals(actResult, expResult,"Failed2- both results are diff:  ");
 		
 		home.getSwagLabHomePageRemoveBtn();
-		Reporter.log("My name is Niraj");
+
+		Reporter.log("Jai Shree Ram...", true);
+		Reporter.log("Jai Shree Hanuman...", true);
+		
+		Reporter.log("My name is Niraj", true);
 		
 	}
 	
