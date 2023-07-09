@@ -15,7 +15,7 @@ public class BaseClass
 	{
 		ChromeOptions op=new ChromeOptions();
 		op.addArguments("--remote-allow-origins=*");
-		//op.addArguments("headless");
+		op.addArguments("headless");
 		
 			driver=new ChromeDriver(op);
 			driver.get(UtilityClass.getPFData("URL"));

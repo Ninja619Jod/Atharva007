@@ -7,6 +7,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.ITestResult;
+import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
@@ -48,15 +49,19 @@ public class SwagLabLoginTest extends BaseClass
 	@Test(priority = 1)
 	public void verifyLogo() throws InterruptedException 
 	{
+		Reporter.log("Jai Shree Ram...", true);
 		TCID=101;
 		Thread.sleep(2000);
 		boolean actResult = home.getSwagLabHomePageLogoResult();
 		Assert.assertTrue(actResult,"Failed1- act result is false:   ");
+		Reporter.log("Jai Shree Ram...", true);
 	}
 	
 	@Test(priority = 2)
 	public void verifyAddToCartBtnCovertToRemove() throws InterruptedException, EncryptedDocumentException, IOException
 	{
+		Reporter.log("Jai Shree Ram...", true);
+		Reporter.log("Jai Shree Hanuman...", true);
 		TCID=102;
 		Thread.sleep(2000);
 		home.clickSwagLabHomePageAddToCartBtn();
@@ -81,7 +86,7 @@ public class SwagLabLoginTest extends BaseClass
 		Assert.assertEquals(actResult, expResult,"Failed2- both results are diff:  ");
 		
 		home.getSwagLabHomePageRemoveBtn();
-		
+		Reporter.log("My name is Niraj");
 		
 	}
 	

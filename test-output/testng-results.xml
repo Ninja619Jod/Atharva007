@@ -1,55 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Jai Shree Ram...]]>
+    </line>
+    <line>
+      <![CDATA[Jai Shree Ram...]]>
+    </line>
+    <line>
+      <![CDATA[Jai Shree Ram...]]>
+    </line>
+    <line>
+      <![CDATA[Jai Shree Hanuman...]]>
+    </line>
+    <line>
+      <![CDATA[My name is Niraj]]>
+    </line>
   </reporter-output>
-  <suite started-at="2023-07-08T20:19:52 IST" name="Default suite" finished-at="2023-07-08T20:20:23 IST" duration-ms="30745">
+  <suite started-at="2023-07-09T16:53:52 IST" name="Default suite" finished-at="2023-07-09T16:54:23 IST" duration-ms="30630">
     <groups>
     </groups>
-    <test started-at="2023-07-08T20:19:52 IST" name="Default test" finished-at="2023-07-08T20:20:23 IST" duration-ms="30745">
+    <test started-at="2023-07-09T16:53:52 IST" name="Default test" finished-at="2023-07-09T16:54:23 IST" duration-ms="30630">
       <class name="Module1_Login_Test.SwagLabLoginTest">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Module1_Login_Test.SwagLabLoginTest@48075da3]" started-at="2023-07-08T20:19:52 IST" name="openBrowser" finished-at="2023-07-08T20:19:56 IST" duration-ms="3632" status="PASS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Module1_Login_Test.SwagLabLoginTest@48075da3]" started-at="2023-07-09T16:53:52 IST" name="openBrowser" finished-at="2023-07-09T16:53:56 IST" duration-ms="4082" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="loginToApp()[pri:0, instance:Module1_Login_Test.SwagLabLoginTest@48075da3]" started-at="2023-07-08T20:19:56 IST" name="loginToApp" finished-at="2023-07-08T20:19:59 IST" duration-ms="3443" status="PASS">
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:Module1_Login_Test.SwagLabLoginTest@48075da3]" started-at="2023-07-09T16:53:56 IST" name="loginToApp" finished-at="2023-07-09T16:54:00 IST" duration-ms="3354" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToApp -->
-        <test-method signature="verifyLogo()[pri:1, instance:Module1_Login_Test.SwagLabLoginTest@48075da3]" started-at="2023-07-08T20:19:59 IST" name="verifyLogo" finished-at="2023-07-08T20:20:01 IST" duration-ms="2064" status="PASS">
+        <test-method signature="verifyLogo()[pri:1, instance:Module1_Login_Test.SwagLabLoginTest@48075da3]" started-at="2023-07-09T16:54:00 IST" name="verifyLogo" finished-at="2023-07-09T16:54:02 IST" duration-ms="2084" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Jai Shree Ram...]]>
+            </line>
+            <line>
+              <![CDATA[Jai Shree Ram...]]>
+            </line>
           </reporter-output>
         </test-method> <!-- verifyLogo -->
-        <test-method is-config="true" signature="logoutFromApp(org.testng.ITestResult)[pri:0, instance:Module1_Login_Test.SwagLabLoginTest@48075da3]" started-at="2023-07-08T20:20:01 IST" name="logoutFromApp" finished-at="2023-07-08T20:20:03 IST" duration-ms="2136" status="PASS">
+        <test-method is-config="true" signature="logoutFromApp(org.testng.ITestResult)[pri:0, instance:Module1_Login_Test.SwagLabLoginTest@48075da3]" started-at="2023-07-09T16:54:02 IST" name="logoutFromApp" finished-at="2023-07-09T16:54:04 IST" duration-ms="2192" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyLogo status=SUCCESS method=SwagLabLoginTest.verifyLogo()[pri:1, instance:Module1_Login_Test.SwagLabLoginTest@48075da3] output={null}]]]>
+                <![CDATA[[TestResult name=verifyLogo status=SUCCESS method=SwagLabLoginTest.verifyLogo()[pri:1, instance:Module1_Login_Test.SwagLabLoginTest@48075da3] output=Jai Shree Ram...]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutFromApp -->
-        <test-method is-config="true" signature="loginToApp()[pri:0, instance:Module1_Login_Test.SwagLabLoginTest@48075da3]" started-at="2023-07-08T20:20:03 IST" name="loginToApp" finished-at="2023-07-08T20:20:07 IST" duration-ms="3434" status="PASS">
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:Module1_Login_Test.SwagLabLoginTest@48075da3]" started-at="2023-07-09T16:54:04 IST" name="loginToApp" finished-at="2023-07-09T16:54:07 IST" duration-ms="3280" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToApp -->
-        <test-method signature="verifyAddToCartBtnCovertToRemove()[pri:2, instance:Module1_Login_Test.SwagLabLoginTest@48075da3]" started-at="2023-07-08T20:20:07 IST" name="verifyAddToCartBtnCovertToRemove" finished-at="2023-07-08T20:20:18 IST" duration-ms="11314" status="PASS">
+        <test-method signature="verifyAddToCartBtnCovertToRemove()[pri:2, instance:Module1_Login_Test.SwagLabLoginTest@48075da3]" started-at="2023-07-09T16:54:07 IST" name="verifyAddToCartBtnCovertToRemove" finished-at="2023-07-09T16:54:19 IST" duration-ms="11257" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Jai Shree Ram...]]>
+            </line>
+            <line>
+              <![CDATA[Jai Shree Hanuman...]]>
+            </line>
+            <line>
+              <![CDATA[My name is Niraj]]>
+            </line>
           </reporter-output>
         </test-method> <!-- verifyAddToCartBtnCovertToRemove -->
-        <test-method is-config="true" signature="logoutFromApp(org.testng.ITestResult)[pri:0, instance:Module1_Login_Test.SwagLabLoginTest@48075da3]" started-at="2023-07-08T20:20:18 IST" name="logoutFromApp" finished-at="2023-07-08T20:20:20 IST" duration-ms="2213" status="PASS">
+        <test-method is-config="true" signature="logoutFromApp(org.testng.ITestResult)[pri:0, instance:Module1_Login_Test.SwagLabLoginTest@48075da3]" started-at="2023-07-09T16:54:19 IST" name="logoutFromApp" finished-at="2023-07-09T16:54:21 IST" duration-ms="2165" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyAddToCartBtnCovertToRemove status=SUCCESS method=SwagLabLoginTest.verifyAddToCartBtnCovertToRemove()[pri:2, instance:Module1_Login_Test.SwagLabLoginTest@48075da3] output={null}]]]>
+                <![CDATA[[TestResult name=verifyAddToCartBtnCovertToRemove status=SUCCESS method=SwagLabLoginTest.verifyAddToCartBtnCovertToRemove()[pri:2, instance:Module1_Login_Test.SwagLabLoginTest@48075da3] output=Jai Shree Ram...]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutFromApp -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Module1_Login_Test.SwagLabLoginTest@48075da3]" started-at="2023-07-08T20:20:20 IST" name="closeBrowser" finished-at="2023-07-08T20:20:23 IST" duration-ms="2444" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Module1_Login_Test.SwagLabLoginTest@48075da3]" started-at="2023-07-09T16:54:21 IST" name="closeBrowser" finished-at="2023-07-09T16:54:23 IST" duration-ms="2141" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
