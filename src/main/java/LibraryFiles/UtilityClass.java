@@ -18,7 +18,7 @@ public class UtilityClass
 {		
 	public static String getPFData(String key) throws IOException
 	{
-		FileInputStream file=new FileInputStream("C:\\Users\\niraj\\OneDrive\\Desktop\\3rdSeptBEveMaven\\PropertyFile.properties");
+		FileInputStream file=new FileInputStream("C:\\Users\\niraj\\OneDrive\\Desktop\\3rdSeptBEveMaven\\Atharva007\\PropertyFile.properties");
 		Properties p=new Properties();
 		p.load(file);
 		String value = p.getProperty(key);
@@ -41,7 +41,7 @@ public class UtilityClass
 	public static void captureSS(WebDriver driver,int TCIDNumer) throws IOException
 	{
 		File src = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		File dest=new File("C:\\Users\\niraj\\OneDrive\\Desktop\\3rdSeptBEveMaven\\FailedTCesSS\\TestCaseID"+TCIDNumer+ ".png");
+		File dest=new File("C:\\Users\\niraj\\OneDrive\\Desktop\\3rdSeptBEveMaven\\Atharva007\\FailedTCesSS\\TestCaseID"+TCIDNumer+ ".png");
 		FileHandler.copy(src, dest);		
 	}
 

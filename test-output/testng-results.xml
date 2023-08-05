@@ -8,20 +8,20 @@
       <![CDATA[Jai Shree Ram...]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-07-09T17:22:27 IST" name="Default suite" finished-at="2023-07-09T17:22:44 IST" duration-ms="17350">
+  <suite started-at="2023-08-05T13:31:22 IST" name="Default suite" finished-at="2023-08-05T13:31:38 IST" duration-ms="16047">
     <groups>
     </groups>
-    <test started-at="2023-07-09T17:22:27 IST" name="Default test" finished-at="2023-07-09T17:22:44 IST" duration-ms="17350">
+    <test started-at="2023-08-05T13:31:22 IST" name="Default test" finished-at="2023-08-05T13:31:38 IST" duration-ms="16047">
       <class name="Module1_Login_Test.SwagClassForGit">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Module1_Login_Test.SwagClassForGit@8458f04]" started-at="2023-07-09T17:22:27 IST" name="openBrowser" finished-at="2023-07-09T17:22:34 IST" duration-ms="7454" status="PASS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Module1_Login_Test.SwagClassForGit@6d60fe40]" started-at="2023-08-05T13:31:22 IST" name="openBrowser" finished-at="2023-08-05T13:31:28 IST" duration-ms="6344" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="loginToApp()[pri:0, instance:Module1_Login_Test.SwagClassForGit@8458f04]" started-at="2023-07-09T17:22:34 IST" name="loginToApp" finished-at="2023-07-09T17:22:38 IST" duration-ms="3485" status="PASS">
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:Module1_Login_Test.SwagClassForGit@6d60fe40]" started-at="2023-08-05T13:31:28 IST" name="loginToApp" finished-at="2023-08-05T13:31:31 IST" duration-ms="3330" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToApp -->
-        <test-method signature="verifyLogo()[pri:1, instance:Module1_Login_Test.SwagClassForGit@8458f04]" started-at="2023-07-09T17:22:38 IST" name="verifyLogo" finished-at="2023-07-09T17:22:40 IST" duration-ms="2053" status="PASS">
+        <test-method signature="verifyLogo()[pri:1, instance:Module1_Login_Test.SwagClassForGit@6d60fe40]" started-at="2023-08-05T13:31:31 IST" name="verifyLogo" finished-at="2023-08-05T13:31:33 IST" duration-ms="2089" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Jai Shree Ram...]]>
@@ -31,18 +31,18 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyLogo -->
-        <test-method is-config="true" signature="logoutFromApp(org.testng.ITestResult)[pri:0, instance:Module1_Login_Test.SwagClassForGit@8458f04]" started-at="2023-07-09T17:22:40 IST" name="logoutFromApp" finished-at="2023-07-09T17:22:42 IST" duration-ms="2169" status="PASS">
+        <test-method is-config="true" signature="logoutFromApp(org.testng.ITestResult)[pri:0, instance:Module1_Login_Test.SwagClassForGit@6d60fe40]" started-at="2023-08-05T13:31:33 IST" name="logoutFromApp" finished-at="2023-08-05T13:31:36 IST" duration-ms="2118" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyLogo status=SUCCESS method=SwagClassForGit.verifyLogo()[pri:1, instance:Module1_Login_Test.SwagClassForGit@8458f04] output=Jai Shree Ram...]]]>
+                <![CDATA[[TestResult name=verifyLogo status=SUCCESS method=SwagClassForGit.verifyLogo()[pri:1, instance:Module1_Login_Test.SwagClassForGit@6d60fe40] output=Jai Shree Ram...]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutFromApp -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Module1_Login_Test.SwagClassForGit@8458f04]" started-at="2023-07-09T17:22:42 IST" name="closeBrowser" finished-at="2023-07-09T17:22:44 IST" duration-ms="2127" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Module1_Login_Test.SwagClassForGit@6d60fe40]" started-at="2023-08-05T13:31:36 IST" name="closeBrowser" finished-at="2023-08-05T13:31:38 IST" duration-ms="2126" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
